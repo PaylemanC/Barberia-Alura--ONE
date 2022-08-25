@@ -1,0 +1,71 @@
+/*CSS de la "Peluqueria Alura"*/
+
+/*Mantener la estructura que tengo en el index.html en el style.css.  */
+
+/*Clase de encabezado*/
+.tituloPrincipal {
+    padding-left: 30px;
+}
+
+
+#banner {
+    width: 100%;
+}
+
+
+/*Clase del bloque de contenido de la descripción.*/
+.principal {
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+
+/*Clase del h2 y h3*/
+.tituloCentralizado {
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+
+strong {
+    color: blue;
+}
+
+
+em strong {
+    color: red;
+}
+
+
+#mision {    
+    font-size: "20px;"
+}
+
+
+/*Clase de la lista*/
+.diferenciales {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+
+.items {
+    font-style: italic; 
+}
+
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+
+.imagenDiferenciales {
+    width: 50%;        
+}

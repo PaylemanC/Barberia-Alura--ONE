@@ -1,0 +1,102 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px; 
+}
+
+/*Selector del Bloque para los elementos del panel de navegación: logo y lista*/
+.caja {
+    width: 940px; 
+    position: relative; 
+    margin: 0 auto; 
+}
+
+/*Posicionamos la lista de navegación*/
+nav {
+    position: absolute; 
+    top: 110px; 
+    right: 0;
+}
+
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px;
+}
+
+
+.productos li {
+    display: inline-block; 
+    text-align: center;
+    width: 30%; /*100% - 90% / 3 = 30%, y 10% restantes se distribuyen entre los márgenes*/
+    vertical-align: top;
+
+    /*Añade esta propiedad si quieres ver todas las herramientas a continuación: background-color: #CCCCCC; */
+
+    margin: 0 1.5%; /*1.5% * 6(cantidad de espacios) = 9% /// 9% + (30% * 3) = 
+    99%FINAL*/
+    padding: 30px 20px; 
+    box-sizing: border-box; /*IMPORTANTE. Para que el padding NO sobrepase el 99%, y el "paquete completo" no quede abajo.
+    "El borde de cada uno de los ítems será el límite del espacio que será definido"*/
+
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}
+
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; 
+}
+
+footer {
+    text-align: center; 
+    background: url(imagenesProductos/bg.jpg);
+    padding: 40px; 
+}
+
+footer .copyright {
+    color: white; 
+    font-size: 13px;
+    margin: 20px;
+}

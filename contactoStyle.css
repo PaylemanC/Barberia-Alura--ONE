@@ -1,0 +1,108 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px; 
+}
+
+/*Selector del Bloque para los elementos del panel de navegación: logo y lista*/
+.caja {
+    width: 940px; 
+    position: relative; 
+    margin: 0 auto; 
+}
+
+/*Posicionamos la lista de navegación*/
+nav {
+    position: absolute; 
+    top: 110px; 
+    right: 0;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+footer {
+    text-align: center; 
+    background: url(imagenesProductos/bg.jpg);
+    padding: 40px; 
+}
+
+footer .copyright {
+    color: white; 
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*Centralizar.*/
+main {
+    width: 940px; 
+    margin: 0 auto; 
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block; 
+    font-size: 20px; 
+    margin: 0 0 10px; /*0 arriba, 0 a la derecha, abajo 10px*/
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px; /*0 arriba, 0 a la derecha, abajo 20px*/
+    padding: 10px 25px; /*10 superior, 25 inferior*/
+    width: 50%; /*De 940px*/
+}
+
+.checkbox {
+    margin: 20px 0; 
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+    background: orange;
+    border: none; 
+    border-radius: 5px;
+    transition: 1s all; /*Cuánto tardará en que el :hover cambie de color*/
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange; /*Cambia el color cuando posiciono el mouse, con "transición"*/
+    transform: scale(1.2);/*Aumenta el tamaño del botón, con "transformación"*/
+}
+
+table {
+    margin: 40px;
+}
+
+thead {
+    background: #555555; 
+    color: white; 
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #000000; 
+    padding: 8px 15px; 
+}

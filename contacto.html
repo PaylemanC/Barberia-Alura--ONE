@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contacto - Barberia Alura</title>
+        <!-- Este archivo es para resetear TODO el CSS por defecto.
+        Va ANTES del link de estilos-->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contactoStyle.css">
+    </head>
+
+    <body>
+        <!-- Barra de navegación-->
+        <header>
+
+            <!--Bloque para los elementos del panel de navegación: logo y lista-->
+            <div class="caja"> 
+                <h1><img src="imagenesProductos/logo.png"></h1>
+
+                <!--Panel de navegación. Vinculamos con los otros html-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+
+        <main>
+            <form> 
+                <!-- Formulario de datos personales -->
+                <label for="nombreapellido">Nombre y Apellido</label> 
+                <input type="text" id="nombreapellido" class="input-padron" required> 
+
+                <label for="correoelectronico">Correo Electrónico</label> 
+                <input type="email" id="correoelectronico" class="input-padron" placeholder="email@dominio.com" required> 
+
+                <label for="telefono">Teléfono</label> 
+                <input type="tel" id="telefono" class="input-padron" placeholder="(XX) XXXX XXXX" required> 
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+
+                <!-- Formulario para contacto-->
+                <fieldset>
+
+                    <legend> ¿Cómo le gustaría que lo contactemos? </legend>
+
+                    <!-- Opciones con puntero -->
+                    <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email"> Email</label>
+
+                    <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id="radio-telefono"> Teléfono</label>
+
+                    <label for="radio-whatsapp"> <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+
+                </fieldset>
+
+
+                <!-- Seleccionar horario-->
+                <fieldset>
+
+                    <legend>¿En cuál horario prefiere ser atendido</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                    
+                </fielset>
+
+                <!--Checkbox de novedades-->
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barberia Alura?</label>
+                <!-- Se puede hacer esta sintaxis para evitar poner el ID-->
+
+                <!-- Botón de enviar -->
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+
+                <!--Encabezado de la tabla-->
+                <thead>
+                    <!--"Table row-filas"-->
+                    <tr>
+                        <!--Celdas de cada una de las líneas-->
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <!--Cuerpo de la tabla-->
+                <tbody>
+
+                    <!--"Table row-filas"-->
+                    <tr>
+                        <!--Celdas de cada una de las líneas-->
+                        <td>Día</td>
+                        <td>Horario</td>
+                    </tr>
+
+                    <tr>
+                        <!--Celdas de cada una de las líneas-->
+                        <td>Lunes</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+
+                    <tr>
+                        <!--Celdas de cada una de las líneas-->
+                        <td>Miércoles</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+
+                    <tr>
+                        <!--Celdas de cada una de las líneas-->
+                        <td>Viernes</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+
+                </tbody>
+                
+            </table>
+
+        </main>
+
+
+        <!--Pie de página-->
+        <footer>
+            <img src="imagenesProductos/logo-blanco.png">
+            <p class="copyright">&copy; Copyright Barbería Alura 2020</p>
+        </footer>
+
+    </body>
+</html>

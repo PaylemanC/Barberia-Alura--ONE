@@ -1,0 +1,58 @@
+/*Hoja de estilos para el ENCABEZADO y PIE DE PÁGINA de todas las páginas. También la TIPOLOGÍA-letra*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Encabezado-------------------------------------*/
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px; 
+}
+
+/*Selector del Bloque para los elementos del panel de navegación: logo y lista*/
+.caja {
+    width: 940px; 
+    position: relative; 
+    margin: 0 auto; 
+}
+
+/*Posicionamos la lista de navegación*/
+nav {
+    position: absolute; 
+    top: 110px; 
+    right: 0;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px; 
+    text-decoration: none;
+}
+
+
+/*Footer----------------------------------*/
+footer {
+    text-align: center; 
+    background: url(imagenesProductos/bg.jpg);
+    padding: 40px; 
+}
+
+footer .copyright {
+    color: white; 
+    font-size: 13px;
+    margin: 20px;
+}

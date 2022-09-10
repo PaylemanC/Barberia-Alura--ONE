@@ -16,8 +16,7 @@
     margin: 0 1.5%; /*1.5% * 6(cantidad de espacios) = 9% /// 9% + (30% * 3) = 
     99%FINAL*/
     padding: 30px 20px; 
-    box-sizing: border-box; /*IMPORTANTE. Para que el padding NO sobrepase el 99%, y el "paquete completo" no quede abajo.
-    "El borde de cada uno de los ítems será el límite del espacio que será definido"*/
+    box-sizing: border-box; /*IMPORTANTE. Para que el padding NO sobrepase el 99%, y el "paquete completo" no quede abajo.*/
 
     border: 2px #000000 solid;
     border-radius: 10px;
@@ -38,7 +37,7 @@
 }
 
 .productos li:hover h2 {
-    font-size: 33px;
+    font-size: 31px;
 }
 
 .producto-descripcion {
